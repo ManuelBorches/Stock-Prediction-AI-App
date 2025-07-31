@@ -33,10 +33,10 @@ A project that demonstrates how to integrate AI APIs with stock market data usin
 4. **OpenAI Integration**: Worker securely calls OpenAI API for analysis
 5. **Response**: AI-generated stock report is returned to the user
 
-## 🎯 Key Learning Points
+## 🏗️ Architecture & Implementation
 
-- **Serverless Architecture**: Understanding how Cloudflare Workers handle requests
-- **API Security**: Why and how to protect API keys in production applications
-- **Async JavaScript**: Handling multiple API calls and promises
-- **Error Handling**: Implementing robust error handling for API failures
-- **Environment Management**: Separating development and production configurations
+- **Serverless Architecture**: Cloudflare Workers for edge computing
+- **API Security**: Protected API keys through serverless functions
+- **Async JavaScript**: Promise-based data fetching and processing
+- **Error Handling**: Comprehensive error management system
+- **Environment Management**: Secure configuration handling
