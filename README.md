@@ -27,11 +27,13 @@ A project that demonstrates how to integrate AI APIs with stock market data usin
 
 ## 🌐 How It Works
 
-1. **User Input**: User enters stock tickers through the web interface
-2. **Data Fetching**: Frontend requests stock data from Polygon.io API
-3. **AI Processing**: Stock data is sent to Cloudflare Worker
-4. **OpenAI Integration**: Worker securely calls OpenAI API for analysis
-5. **Response**: AI-generated stock report is returned to the user
+1. **User Input**: User enters stock tickers (e.g., AAPL, TSLA, MSFT) through the web interface
+2. **Data Fetching**: Frontend requests stock data from Polygon.io API for selected tickers
+3. **AI Processing**: Stock data is sent to Cloudflare Worker for secure processing
+4. **OpenAI Integration**: Worker securely calls OpenAI API for analysis like _"AAPL stocks have gone stratospheric! They opened at $166.38 and closed at $182.89..."_
+5. **Response**: AI-generated stock report with buy/hold/sell recommendations is displayed to user
+
+**Example workflow**: Add "AAPL" → Click "Generate Report" → Get AI analysis with performance insights and trading recommendations
 
 ## 🏗️ Architecture & Implementation
 
